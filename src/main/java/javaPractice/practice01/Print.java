@@ -1,6 +1,6 @@
 package javaPractice.practice01;
 
-public class Example01 {
+public class Print {
 
     /*
     Type code to print first name, last name, age, height and weight then print them on console in this way:

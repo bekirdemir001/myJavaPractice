@@ -1,6 +1,6 @@
 package javaPractice.practice01;
 
-public class Example03 {
+public class Hypotenuse {
     /*
     Type a code that calculates the hypotenuse.
     Formula of hypotenuse: a²+b²=c²
@@ -11,7 +11,7 @@ public class Example03 {
 
         c = Math.sqrt(Math.pow(a, 2) + Math.pow(b,2));
 
-        System.out.println("Hypotenuse: " + c);//20.0
+        System.out.println("Hypotenuse = " + c);//20.0
 
     }
 }
