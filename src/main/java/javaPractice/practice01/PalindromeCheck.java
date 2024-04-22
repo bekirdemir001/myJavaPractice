@@ -1,15 +1,12 @@
 package javaPractice.practice01;
 
 import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
-public class Palindrome {
+public class PalindromeCheck {
 
     /*
-    Type a code finds palindromic words.
+    Write a Java program to check if a given string is a palindrome or not.
     Palindromes are sentences, words and numbers that read the same backwards.
     For example:
         input = mustang                 input = civic
