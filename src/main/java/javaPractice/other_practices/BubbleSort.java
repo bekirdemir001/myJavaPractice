@@ -1,4 +1,4 @@
-package javaPractice.practice01;
+package javaPractice.other_practices;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class BubbleSort {
 
     /*
-    Write a Java program to implement the bubble sort algorithm for sorting an array of integers.
+    Bubble Sort: Write a Java program to implement the bubble sort algorithm for sorting an array of integers.
 
     Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements
     if they are in the wrong order.
@@ -27,6 +27,7 @@ public class BubbleSort {
 
         getBubbleSort(intArray);
 
+        scanner.close();
     }
 
     //Bubble Sort Method

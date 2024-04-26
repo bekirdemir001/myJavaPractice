@@ -1,11 +1,11 @@
-package javaPractice.practice01;
+package javaPractice.maths;
 
 import java.util.Scanner;
 
 public class FibonacciSequence {
 
     /*
-    Write a Java program to generate the Fibonacci series up to a given number of terms.
+    Fibonacci Sequence: Write a Java program to generate the Fibonacci series up to a given number of terms.
      */
 
     public static void main(String[] args) {
@@ -28,6 +28,7 @@ public class FibonacciSequence {
             }
         }while (true);
 
+        scanner.close();
     }
 
     //Fibonacci Sequence

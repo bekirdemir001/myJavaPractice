@@ -1,12 +1,11 @@
-package javaPractice.practice01;
+package javaPractice.other_practices;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class ReverseString {
 
     /*
-    Write a Java program to reverse a given string without using built-in functions.
+    Reverse a String: Write a Java program to reverse a given string without using built-in functions.
      */
 
     public static void main(String[] args) {
@@ -18,6 +17,8 @@ public class ReverseString {
         String reversedStr = getReversedString(str);
 
         System.out.println("Reversed String is = " + reversedStr);
+
+        scanner.close();
     }
 
     //Reverse String Method

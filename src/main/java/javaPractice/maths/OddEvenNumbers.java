@@ -1,11 +1,11 @@
-package javaPractice.practice01;
+package javaPractice.maths;
 
 import java.util.Random;
 
 public class OddEvenNumbers {
 
     /*
-    Type a program that gives the number of odd and even number according to the followings;
+    Odd or Even Numbers: Type a program that gives the number of odd and even number according to the followings;
     1. Create random 100 number (use Random Class)
     2. Create a method finds odd numbers
     3. Create a method finds even numbers

@@ -1,4 +1,4 @@
-package javaPractice.practice01;
+package javaPractice.other_practices;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class PalindromeCheck {
 
     /*
-    Write a Java program to check if a given string is a palindrome or not.
+    Palindrome Check: Write a Java program to check if a given string is a palindrome or not.
     Palindromes are sentences, words and numbers that read the same backwards.
     For example:
         input = mustang                 input = civic
@@ -60,5 +60,6 @@ public class PalindromeCheck {
             System.out.println("Non-Palindromic word with For-Loop");
         }
 
+        scanner.close();
     }
 }

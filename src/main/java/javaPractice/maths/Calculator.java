@@ -1,11 +1,11 @@
-package javaPractice.practice01;
+package javaPractice.maths;
 
 import java.util.Scanner;
 
 public class Calculator {
 
     /*
-    Type a program that calculate mathematical operations.
+    Calculator: Type a program that calculate mathematical operations.
     1. Basic operations : addition, subtraction, multiplication and division.
     2. Show a menu to the user, for example; 1-Addition, 2-Subtraction, ...
     3. Get two number from the user
@@ -26,6 +26,8 @@ public class Calculator {
         int second = scanner.nextInt();
 
         calculator(selection, first, second);
+
+        scanner.close();
     }
 
     //Menu

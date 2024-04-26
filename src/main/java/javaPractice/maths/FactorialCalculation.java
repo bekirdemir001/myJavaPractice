@@ -1,11 +1,11 @@
-package javaPractice.practice01;
+package javaPractice.maths;
 
 import java.util.Scanner;
 
 public class FactorialCalculation {
 
     /*
-    Write a Java program to calculate the factorial of a given number using recursion.
+    Factorial Calculation: Write a Java program to calculate the factorial of a given number using recursion.
 
     Tip: Recursion in Java refers to the process in which a method calls itself in order to solve a problem.
     In a recursive approach, a method solves a problem by breaking it down into smaller instances of the same problem
@@ -26,6 +26,7 @@ public class FactorialCalculation {
             System.out.println("Factorial of " + number + " is = " + factorial);
         }
 
+        scanner.close();
     }
 
     //Factorial Method
