@@ -2,7 +2,7 @@ package javaPractice.maths;
 
 import java.util.Scanner;
 
-public class FactorialCalculation {
+public class FactorialRecursive {
 
     /*
     Factorial Calculation: Write a Java program to calculate the factorial of a given number using recursion.
